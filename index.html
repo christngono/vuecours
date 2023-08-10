@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/logolasylab.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Lasylab: Plateforme d'apprentissage de 6e en Tle (vidéos, exercice, fiches de révisions) </title>
+    <style>
+      *{
+        padding:0;
+
+      }
+  body, html{
+    box-sizing: border-box;
+    height:100%;
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+  } 
+  #app{
+    height: 100%;
+  }   
+    body{
+   background: #F7F1ED;
+  
+  }
+   .contain{
+    width: 50%;
+    background: #fff;
+    border-radius: 20px;
+    padding:30px;
+    margin:auto;
+
+  }
+   @media (max-width: 600px) {
+      .contain{
+         width:80%;
+      }
+   }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
