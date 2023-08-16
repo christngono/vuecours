@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
       <div class="nav_contain">
-          <div> <span class="te">Mathématique</span></div>
+          <div> <span class="te">{{ titre }}</span></div>
           <div><img src="../../assets/logolasylab.png"
                    alt="" height="80"></div>
           <div>
@@ -15,7 +15,12 @@
 </template>
 
 <script setup>
- 
+ defineProps({
+    titre:{
+        type:String,
+    
+    }
+ })
 </script>
 
 <style scoped>

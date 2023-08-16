@@ -7,6 +7,9 @@ import AideView from '../views/AideView.vue'
 import ChoixcoursView from '../views/ChoixcoursView.vue'
 import AboutView from '../views/AboutView.vue'
 import QuizView from '../views/QuizView.vue'
+import OrientationView from '../views/OrientationView.vue'
+import CoursemathView1 from '../views/CoursemathView1.vue'
+import CourseVideoView from '../views/CourseVideoView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +53,22 @@ const router = createRouter({
       path: '/course/quiz',
       name: 'quiz',
       component: QuizView
+    }
+    ,
+     {
+      path: '/orientation',
+      name: 'orientation',
+      component: OrientationView
+    },
+    {
+      path: '/mathcourse',
+      name: 'mathcourse',
+      component: CoursemathView1
+    },
+    {
+      path: '/course/video',
+      name: 'coursvideo',
+      component: CourseVideoView
     }
 
   ]

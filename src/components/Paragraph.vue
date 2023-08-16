@@ -1,15 +1,10 @@
 <template>
   <p :class='bold' >
-   {{content}}
+  <slot></slot>
   </p>
 </template>
 
 <script setup>
-defineProps({
-  content:{
-    type: String,
-  }
-})
 </script>
 
 <style scoped>

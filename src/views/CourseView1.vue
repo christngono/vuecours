@@ -21,14 +21,14 @@ import Footer from '../components/Footer.vue'
 <div class='contain lign'>
 <LasylabTitle/>
 <SimpleTitle title='Etape 1- La transcription:'/>
-<Paragraph class='gt' content=' Le gène de l’ADN situé dans le noyau fourni les informations nécessaires à la création des protéines dans le 
-cytoplasme. Pour ce faire il va :'/>
-<Paragraph class='gt' content="recopier les informations  de la molécule D’ADN  dans une molécule messagère dite acide ribonucléique messager (ARNm) en utilisant un complexe enzymatique qui s’appelle 
-L’ARN-Polyméras"/>
-<Paragraph class='gt' content="Ce dernier va incorporer des nucléotides présent dans le milieu cellulaire sur le brin ARN messager par complementarité des bases azotés avec l’un des brins de la molécules d’ADN"/>
-<CardImage/>
-<Paragraph class='gt' content="- Cette molécule va se déplacer hors du noyau vers le 
-cytoplasme ou commence la seconde procédure qui est la traductio"/>
+<Paragraph class='gt'>Le gène de l’ADN situé dans le noyau fourni les informations nécessaires à la création des protéines dans le 
+     cytoplasme. Pour ce faire il va :</Paragraph>
+<Paragraph class='gt'>recopier les informations  de la molécule D’ADN  dans une molécule messagère dite acide ribonucléique messager (ARNm) en utilisant un complexe enzymatique qui s’appelle 
+     L’ARN-Polyméras</Paragraph>
+<Paragraph class='gt'>Ce dernier va incorporer des nucléotides présent dans le milieu cellulaire sur le brin ARN messager par complementarité des bases azotés avec l’un des brins de la molécules d’ADN</Paragraph>
+<CardImage><img src="../assets/images/biosyntheseproteine.png" alt=""></CardImage>
+<Paragraph class='gt'> Cette molécule va se déplacer hors du noyau vers le 
+     cytoplasme ou commence la seconde procédure qui est la traduction</Paragraph>
 </div>
 
 <SectionAction/>

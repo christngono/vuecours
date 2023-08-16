@@ -1,7 +1,11 @@
 <template>
+    <div class="mt">
+
+   
     <span href="" class="btn"> 
          <a :href="href"> {{ title }}</a>
        </span> 
+        </div>
 </template>
 
 <script setup>
@@ -41,4 +45,7 @@ a{
     border: 1px solid #D0D23F;
     cursor: pointer;  
 }
+.mt{
+      margin-top:50px;
+    }
 </style>

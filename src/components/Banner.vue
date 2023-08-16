@@ -8,7 +8,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .titre{
   background: #fff;
   padding:15px 25px;
@@ -35,7 +35,7 @@
         height: 200px;
     }
      .wrap_banner span{
-    font-size:1.2rem;
+    font-size:1rem;
  
 
     }

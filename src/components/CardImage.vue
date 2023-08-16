@@ -1,6 +1,7 @@
 <template>
    <div class='img'>
-    <img src="../assets/images/biosyntheseproteine.png" alt="">
+      <slot></slot>
+    
    </div>
 </template>
 

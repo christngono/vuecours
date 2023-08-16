@@ -82,17 +82,19 @@ defineProps({
 }
 .course_head span{
   font-size:0.9rem;
+  color:#000;
 }
 .CardCourse{
     margin-top:10px;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
     width:250px;
+    margin-bottom: 20px;
     background-color: #c4c4c4;
     box-shadow: 2px 2px #C4C4C4;
 }
 .course_body{
-height: 80px;
+height: 50%;
 }
 .CardCourse:hover{
     background-color: #c4c4c4;
@@ -103,7 +105,7 @@ height: 80px;
 .one{
     padding: 10px;
     background-color:v-bind(color);
-    height: 70%;
+    height: 75%;
      border-radius: 10px 10px 0px 0px;
 }
 .course_foot{
@@ -115,10 +117,13 @@ flex-wrap:wrap;
 justify-content: space-between;
 background-color:v-bind(color2);
 padding: 10px;
+color:#000;
+
 }
 .course_body> span{
  line-height: 2px;
   font-size:0.9rem;
+    color:#000;
 }
 .no{
     font-weight: bold;
@@ -127,6 +132,10 @@ padding: 10px;
 }
 .course_img{
    text-align: center; 
+ 
+}
+.course_img span{
+    color:#000!important;
 }
 .course_img>img{
    height: 50px;
@@ -141,8 +150,9 @@ a{
 }
 @media (max-width: 600px) {
        .CardCourse{
-    width: 45%;
+    width: 47%;
     height: 170px;
+      box-shadow: 2px 17px #C4C4C4;
  
   }
    .course_body{
@@ -155,8 +165,8 @@ a{
  line-height: 2px;
 }
 .course_foot{
-  padding: 1px 5px;
-  height: 25px;
+  padding: 5px 10px;
+  height: 15%;
   font-size:0.7rem;
 }
 .course_img>img{
